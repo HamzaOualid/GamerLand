@@ -1,0 +1,26 @@
+@font-face {
+    font-family: roboto;
+    src: url(../roboto.ttf);
+}
+
+.h1 {
+    padding: 2%;
+}
+
+.img1 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img1:hover {
+    content: url(../img/volant/hLogitech\ G920\ Driving\ Force\ Racing\ Wheel.png);
+}
+
+.img2 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img2:hover {
+    content: url(../img/volant/hSpirit\ of\ Gamer\ Race\ Wheel\ Pro\ 2.png);
+}

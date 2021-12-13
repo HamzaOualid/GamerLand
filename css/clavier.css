@@ -1,0 +1,35 @@
+@font-face {
+    font-family: roboto;
+    src: url(../roboto.ttf);
+}
+
+.h1 {
+    padding: 2%;
+}
+
+.img1 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img1:hover {
+    content: url(../img/clavier/hRazer\ BlackWidow\ V3\ Mini\ HyperSpeed.png);
+}
+
+.img2 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img2:hover {
+    content: url(../img/clavier/hRazer\ BlackWidow\ V3.png);
+}
+
+.img3 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img3:hover {
+    content: url(../img/clavier/hRazer\ Cynosa\ Lite\ RGB.png);
+}

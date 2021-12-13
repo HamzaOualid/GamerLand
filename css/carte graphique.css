@@ -1,0 +1,62 @@
+@font-face {
+    font-family: roboto;
+    src: url(../roboto.ttf);
+}
+
+.h1 {
+    padding: 2%;
+}
+
+.img1 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img1:hover {
+    content: url(../img/carte\ graphique/hASUS\ GeForce\ RTX\ 3060\ Dual\ OC\ 12GB\ GDDR6.png);
+}
+
+.img2 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img2:hover {
+    content: url(../img/carte\ graphique/hASUS\ GeForce\ RTX\ 3070\ Dual\ OC\ 8GB\ GDDR6.png);
+}
+
+.img3 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img3:hover {
+    content: url(../img/carte\ graphique/hGigabyte\ Radeon\ RX\ 5700\ XT\ GAMING\ OC\ 8GB\ GDDR6.png);
+}
+
+.img4 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img4:hover {
+    content: url(../img/carte\ graphique/hMSI\ GeForce\ RTX\ 3060\ Gaming\ Z\ Trio\ 12GB\ GDDR6.png);
+}
+
+.img5 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img5:hover {
+    content: url(../img/carte\ graphique/hPalit\ GeForce\ RTX\ 3070\ GamingPro\ OC\ 8GB\ GDDR6.png);
+}
+
+.img6 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img6:hover {
+    content: url(../img/carte\ graphique/hPowerColor\ Red\ Devil\ AMD\ Radeon\ RX\ 6700\ XT\ 12GB\ GDDR6.png);
+}

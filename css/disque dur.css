@@ -1,0 +1,62 @@
+@font-face {
+    font-family: roboto;
+    src: url(../roboto.ttf);
+}
+
+.h1 {
+    padding: 2%;
+}
+
+.img1 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img1:hover {
+    content: url(../img/disque\ dur/hKingston\ SSD\ A400\ 240GB.png);
+}
+
+.img2 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img2:hover {
+    content: url(../img/disque\ dur/hSamsung\ SSD\ 980\ M.2\ PCIe\ NVMe\ 500GB.png);
+}
+
+.img3 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img3:hover {
+    content: url(../img/disque\ dur/hSamsung\ SSD\ 980\ PRO\ M.2\ PCIe\ NVMe\ 1TB.png);
+}
+
+.img4 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img4:hover {
+    content: url(../img/disque\ dur/hSeagate\ BarraCuda\ 3.5\ 1TB.png);
+}
+
+.img5 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img5:hover {
+    content: url(../img/disque\ dur/hWestern\ Digital\ WD\ Blue\ 250GB\ M.2.png);
+}
+
+.img6 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img6:hover {
+    content: url(../img/disque\ dur/hWestern\ Digital\ WD\ Blue\ 3.5\ 1TB.png);
+}

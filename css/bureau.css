@@ -1,0 +1,17 @@
+@font-face {
+    font-family: roboto;
+    src: url(../roboto.ttf);
+}
+
+.h1 {
+    padding: 2%;
+}
+
+.img1 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img1:hover {
+    content: url(../img/bureau/hSKILLDESK\ BLACK\ SPACESHIP\ RGB.png);
+}

@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(roboto.ttf);
+}
+
+.img1 {
+    position: initial;
+    width: 600px;
+    margin-top: -0%;
+}
+
+.img1:hover {
+    content: url(img/EVGA-GeForce-RTX-3090hover.png);
+}
+
+.h1part1 {
+    text-align: center;
+    position: initial;
+    font-family: roboto;
+    color: rgb(0, 184, 0);
+    margin-top: 50%;
+    font-size: 350%;
+}
+
+.ppart1 {
+    position: initial;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 15%;
+    margin: 5%;
+    font-size: 150%;
+    border: 2px white groove;
+    background-color: rgb(20, 20, 20);
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.title:hover {
+    box-shadow: 0px 10px 10px 10px black;
+    
+}
+
+.img2 {
+    position: initial;
+    width: 450px;
+    margin-top: 10%;
+}
+
+.img2:hover {
+    content: url(img/hpack.png);
+}
+
+.h1part2 {
+    text-align: center;
+    position: initial;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    color: rgb(0, 184, 0);
+    margin-top: 10%;
+    margin-bottom: 0;
+    margin-right: 2%;
+    font-size: 350%;
+}
+
+.ppart2 {
+    position: initial;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 15%;
+    margin: 5%;
+    font-size: 150%;
+    border: 2px white groove;
+    background-color: rgb(20, 20, 20);
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.img3 {
+    position: initial;
+    width: 600px;
+    margin-top: 5%;
+}
+
+.img3:hover {
+    content: url(img/hP_setting_xxx_0_90_end_692.png);
+}
+
+.h1part3 {
+    text-align: center;
+    position: initial;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    color: rgb(0, 184, 0);
+    margin-top: 10%;
+    font-size: 350%;
+    margin-left: 2%;
+}
+
+.ppart3 {
+    position: initial;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 15%;
+    margin: 5%;
+    font-size: 150%;
+    border: 2px white groove;
+    background-color: rgb(20, 20, 20);
+    border-radius: 10px;
+    padding: 1%;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgb(50, 50, 50);
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background:rgb(0, 184, 0);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 112, 0); 
+}
+
+
+
+::selection {
+    color: white;
+    background: rgb(0, 184, 0);
+}
+
+::-moz-selection {
+    color: white;
+    background: rgb(0, 184, 0);
+}

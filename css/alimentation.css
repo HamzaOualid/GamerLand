@@ -1,0 +1,35 @@
+@font-face {
+    font-family: roboto;
+    src: url(../roboto.ttf);
+}
+
+.h1 {
+    padding: 2%;
+}
+
+.img1 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img1:hover {
+    content: url(../img/alimentation/hASUS\ ROG-STRIX-750G\ 80PLUS\ Gold.png);
+}
+
+.img2 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img2:hover {
+    content: url(../img/alimentation/hCorsair\ CV550\ 80PLUS\ Bronze\ 550W.png);
+}
+
+.img3 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img3:hover {
+    content: url(../img/alimentation/hCorsair\ CX550F\ RGB\ 80PLUS\ Bronze.png);
+}

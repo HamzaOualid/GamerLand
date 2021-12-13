@@ -1,0 +1,35 @@
+@font-face {
+    font-family: roboto;
+    src: url(../roboto.ttf);
+}
+
+.h1 {
+    padding: 2%;
+}
+
+.img1 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img1:hover {
+    content: url(../img/casque/hHyperX\ Cloud\ Alpha.png);
+}
+
+.img2 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img2:hover {
+    content: url(../img/casque/hLogitech\ G935\ Wireless\ 7.1\ Surround\ Lightsync\ RGB\ Headset.png);
+}
+
+.img3 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img3:hover {
+    content: url(../img/casque/hRazer\ Kraken\ Tournament\ Edition\ Noir.png);
+}

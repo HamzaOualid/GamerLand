@@ -1,0 +1,62 @@
+@font-face {
+    font-family: roboto;
+    src: url(../roboto.ttf);
+}
+
+.h1 {
+    padding: 2%;
+}
+
+.img1 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img1:hover {
+    content: url(../img/carte\ mere/hASUS\ ROG\ STRIX\ B550-F\ GAMING.png);
+}
+
+.img2 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img2:hover {
+    content: url(../img/carte\ mere/hGigabyte\ B550\ AORUS\ ELITE\ V2.png);
+}
+
+.img3 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img3:hover {
+    content: url(../img/carte\ mere/hMSI\ A320M-A\ PRO\ MAX.png);
+}
+
+.img4 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img4:hover {
+    content: url(../img/carte\ mere/hMSI\ B550M\ PRO.png);
+}
+
+.img5 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img5:hover {
+    content: url(../img/carte\ mere/hMSI\ MPG\ X570\ GAMING\ EDGE\ WIFI.png);
+}
+
+.img6 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img6:hover {
+    content: url(../img/carte\ mere/hMSI\ MPG\ X570\ GAMING\ PLUS.png);
+}

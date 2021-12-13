@@ -1,0 +1,62 @@
+@font-face {
+    font-family: roboto;
+    src: url(../roboto.ttf);
+}
+
+.h1 {
+    padding: 2%;
+}
+
+.img1 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img1:hover {
+    content: url(../img/memoire\ vive/hCorsair\ Vengeance\ SO-DIMM\ DDR4\ 16Go\ 2400\ MHz\ CL16.png);
+}
+
+.img2 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img2:hover {
+    content: url(../img/memoire\ vive/hCrucial\ Ballistix\ Black\ 16Go\ RGB\ DDR4\ 3200\ MHz\ CL16.png);
+}
+
+.img3 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img3:hover {
+    content: url(../img/memoire\ vive/hCrucial\ Ballistix\ Red\ 16Go\ RGB\ DDR4\ 3600\ MHz\ CL16.png);
+}
+
+.img4 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img4:hover {
+    content: url(../img/memoire\ vive/hG.Skill\ Aegis\ 8Go\ DDR4\ 3000\ MHz\ CL16.png);
+}
+
+.img5 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img5:hover {
+    content: url(../img/memoire\ vive/hHyperX\ Fury\ RGB\ 8Go\ DDR4\ 2666MHz\ CL16.png);
+}
+
+.img6 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img6:hover {
+    content: url(../img/memoire\ vive/hTeam\ Group\ VULCAN\ Z\ Red\ 8Go\ DDR4\ 3200MHz\ CL16.png);
+}

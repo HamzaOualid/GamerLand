@@ -1,0 +1,79 @@
+@font-face {
+    font-family: roboto;
+    src: url(../roboto.ttf);
+}
+
+.h1 {
+    padding: 2%;
+}
+
+.img1 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img1:hover {
+    content: url(../img/processeur/hi7\ 10gen.png);
+}
+
+.img2 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img2:hover {
+    content: url(../img/processeur/hi9\ 9gen.png);
+}
+
+.img3 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img3:hover {
+    content: url(../img/processeur/hAMD_R7-3700X_01.png);
+}
+
+.img4 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img4:hover {
+    content: url(../img/processeur/hi5\ 9gen.png);
+}
+
+.img5 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img5:hover {
+    content: url(../img/processeur/hi5\ 10gen.png);
+}
+
+.img6 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.img6:hover {
+    content: url(../img/processeur/hi9\ 9gen.png);
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgb(50, 50, 50);
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background:rgb(0, 184, 0);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 112, 0); 
+}
