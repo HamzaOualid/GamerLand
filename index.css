@@ -3,22 +3,43 @@
     padding: 0;
 }
 
+body {
+    background: url(bg/bg1.png);
+    background-size: cover;
+    overflow-x: hidden;
+}
+
 @font-face {
     font-family: roboto;
     src: url(roboto.ttf);
 }
 
-.img1 {
-    position: initial;
-    width: 600px;
-    margin-top: -0%;
+.iimg {
+    margin-top: 1.5%;
+    margin-left: 90%;
+    position: fixed;
 }
 
-.img1:hover {
+.img1 {
+    opacity: 0;
+}
+
+#img1 {
+    position: initial;
+    width: 600px;
+    margin-top: 50%;
+    user-select: none;
+}
+
+#img1:hover {
     content: url(img/EVGA-GeForce-RTX-3090hover.png);
 }
 
 .h1part1 {
+    opacity: 0;
+}
+
+#fh {
     text-align: center;
     position: initial;
     font-family: roboto;
@@ -40,22 +61,26 @@
     padding: 1%;
 }
 
-.title:hover {
-    box-shadow: 0px 10px 10px 10px black;
-    
+.img2 {
+    opacity: 0;
 }
 
-.img2 {
+#img2 {
     position: initial;
     width: 450px;
     margin-top: 10%;
+    user-select: none;
 }
 
-.img2:hover {
+#img2:hover {
     content: url(img/hpack.png);
 }
 
 .h1part2 {
+    opacity: 0;
+}
+
+#sh {
     text-align: center;
     position: initial;
     font-family: roboto, Arial, Helvetica, sans-serif;
@@ -80,16 +105,25 @@
 }
 
 .img3 {
+    opacity: 0;
+}
+
+#img3 {
     position: initial;
     width: 600px;
     margin-top: 5%;
+    user-select: none;
 }
 
-.img3:hover {
+#img3:hover {
     content: url(img/hP_setting_xxx_0_90_end_692.png);
 }
 
 .h1part3 {
+    opacity: 0;
+}
+
+#th {
     text-align: center;
     position: initial;
     font-family: roboto, Arial, Helvetica, sans-serif;
@@ -139,4 +173,121 @@ body::-webkit-scrollbar-thumb:hover {
 ::-moz-selection {
     color: white;
     background: rgb(0, 184, 0);
+}
+
+/*--------------------------------------------------
+----------------------------------------------------
+----------------------------------------------------*/
+
+@media only screen and (max-width: 1020px) {
+    body {
+        background: url(bg/bg2.png);
+        background-size: cover;
+    }
+
+    #img1 {
+        position: initial;
+        width: 413px;
+        margin-top: 62%;
+    }
+    
+    #img1:hover {
+        content: url(img/EVGA-GeForce-RTX-3090hover.png);
+    }
+    
+    #fh {
+        text-align: center;
+        position: initial;
+        font-family: roboto;
+        color: rgb(0, 184, 0);
+        margin-top: 60%;
+        font-size: 240%;
+    }
+    
+    .ppart1 {
+        position: initial;
+        font-family: roboto, Arial, Helvetica, sans-serif;
+        color: rgb(255, 255, 255);
+        margin-top: 15%;
+        margin: 5%;
+        font-size: 125%;
+        border: 2px white groove;
+        background-color: rgb(20, 20, 20);
+        border-radius: 10px;
+        padding: 1%;
+    }
+    
+    #img2 {
+        position: initial;
+        width: 310px;
+        margin-top: 10%;
+    }
+    
+    #img2:hover {
+        content: url(img/hpack.png);
+    }
+    
+    #sh {
+        text-align: center;
+        position: initial;
+        font-family: roboto, Arial, Helvetica, sans-serif;
+        color: rgb(0, 184, 0);
+        margin-top: 10%;
+        margin-bottom: 0;
+        margin-right: 2%;
+        font-size: 240%;
+    }
+    
+    .ppart2 {
+        position: initial;
+        font-family: roboto, Arial, Helvetica, sans-serif;
+        color: rgb(255, 255, 255);
+        margin-top: 15%;
+        margin: 5%;
+        font-size: 125%;
+        border: 2px white groove;
+        background-color: rgb(20, 20, 20);
+        border-radius: 10px;
+        padding: 1%;
+    }
+    
+    #img3 {
+        position: initial;
+        width: 413px;
+        margin-top: 5%;
+    }
+    
+    #img3:hover {
+        content: url(img/hP_setting_xxx_0_90_end_692.png);
+    }
+    
+    #th {
+        text-align: center;
+        position: initial;
+        font-family: roboto, Arial, Helvetica, sans-serif;
+        color: rgb(0, 184, 0);
+        margin-top: 10%;
+        font-size: 240%;
+        margin-right: 45%;
+    }
+    
+    .ppart3 {
+        position: initial;
+        font-family: roboto, Arial, Helvetica, sans-serif;
+        color: rgb(255, 255, 255);
+        margin-top: 15%;
+        margin: 5%;
+        font-size: 125%;
+        border: 2px white groove;
+        background-color: rgb(20, 20, 20);
+        border-radius: 10px;
+        padding: 1%;
+    }
+}
+
+/* for menu*/
+nav ul li ul li a:hover {
+    height: 75px;
+    width: 250px;
+    border-radius: 0 0 20px 20px;
 }

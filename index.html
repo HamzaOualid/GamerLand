@@ -6,66 +6,149 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="css2/log.css">
+        <link rel="stylesheet" href="css2/Login.css">
+        <link rel="stylesheet" href="css2/Signup.css">
+        <link rel="stylesheet" href="animation.css">
     </head>
-    <body background="bg/bg1.png" style="background-size: cover;">
+    <body onload="checkCookie()">
         <header>
             <nav>
                 <ul>
-                    <li><a href="index.html"><img src="logo/hlogo.png" width="75px" height="75px" class="logo1"></a></li>
-                    <li><a><img src="img/menu/pc/pc.png" width="50px" height="50px" class="bmenu" id="hpc"></a>
-                        <ul class="test">
-                            <li><a href="pages/pc portable.html" class="title"><img src="img/menu/pc/pcPortable.png" class="lmenu"></a></li>
-                            <li><a href="pages/pc fixe.html"  class="title"><img src="img/menu/pc/pcFixe.png" class="lmenu"></a></li>
-                        </ul>
-                    </li>
-                    <li><a><img src="img/menu/composant/composant.png" width="196px" height="50px" class="bmenu" id="hcomposant"></a>
-                        <ul>
-                            <li><a href="pages/processeur.html" class="title"><img src="img/menu/composant/processur.png" class="lmenu"></a></li>
-                            <li><a href="pages/carte mere.html" class="title"><img src="img/menu/composant/carteMere.png" class="lmenu"></a></li>
-                            <li><a href="pages/carte graphique.html" class="title"><img src="img/menu/composant/carteGraphique.png" class="lmenu"></a></li>
-                            <li><a href="pages/memoire vive.html" class="title"><img src="img/menu/composant/memoireVive.png" class="lmenu"></a></li>
-                            <li><a href="pages/disque dur et SSD.html" class="title"><img src="img/menu/composant/disqueDur.png" class="lmenu"></a></li>
-                            <li><a href="pages/alimentation PC.html" class="title"><img src="img/menu/composant/alimentationPC.png" class="lmenu"></a></li>
-                            <li><a href="pages/boitier PC.html" class="title"><img src="img/menu/composant/boitierPC.png" class="lmenu"></a></li>
-                        </ul>
-                    </li>
-                    <li><a><img src="img/menu/peripherique/peripherique.png" width="211px" height="50px" class="bmenu" id="hperipherique"></a>
-                        <ul>
-                            <li><a href="pages/moniteur.html" class="title"><img src="img/menu/peripherique/moniteur.png" class="lmenu"></a></li>
-                            <li><a href="pages/clavier.html" class="title"><img src="img/menu/peripherique/clavier.png" class="lmenu"></a></li>
-                            <li><a href="pages/souris.html" class="title"><img src="img/menu/peripherique/souris.png" class="lmenu"></a></li>
-                            <li><a href="pages/casque.html" class="title"><img src="img/menu/peripherique/casque.png" class="lmenu"></a></li>
-                            <li><a href="pages/microphones.html" class="title"><img src="img/menu/peripherique/microphone.png" class="lmenu"></a></li>
-                            <li><a href="pages/webcame.html" class="title"><img src="img/menu/peripherique/webcame.png" class="lmenu"></a></li>
-                        </ul>
-                    </li>
-                    <li><a><img src="img/menu/accessoire/accessoire.png" width="205px" height="50px" class="bmenu" id="haccessoire"></a>
-                        <ul>
-                            <li><a href="pages/chaise.html" class="title"><img src="img/menu/accessoire/chaise.png" class="lmenu"></a></li>
-                            <li><a href="pages/bureau.html" class="title"><img src="img/menu/accessoire/bureau.png" class="lmenu"></a></li>
-                            <li><a href="pages/tapis de souris.html" class="title"><img src="img/menu/accessoire/tapisdesouris.png" class="lmenu"></a></li>
-                            <li><a href="pages/volant.html" class="title"><img src="img/menu/accessoire/volantpourpc.png" class="lmenu"></a></li>
-                        </ul>
-                    </li>
+                    <li><a href="index.html"><img src="logo/logo.png" width="75px" height="75px" class="logo1"></a></li>
+                    <input type="checkbox" id="check" class="input">
+                    <div class="mnav">
+                        <li><a><img src="img/menu/pc/pc.png" width="50px" height="50px" class="bmenu" id="hpc"></a>
+                            <ul class="test">
+                                <li><a href="pages/pc portable.html" class="title"><img src="img/menu/pc/pcPortable.png" class="lmenu"></a></li>
+                                <li><a href="pages/pc fixe.html"  class="title"><img src="img/menu/pc/pcFixe.png" class="lmenu"></a></li>
+                            </ul>
+                        </li>
+                        <li><a><img src="img/menu/composant/composant.png" width="196px" height="50px" class="bmenu" id="hcomposant"></a>
+                            <ul>
+                                <li><a href="pages/processeur.html" class="title"><img src="img/menu/composant/processur.png" class="lmenu"></a></li>
+                                <li><a href="pages/carte mere.html" class="title"><img src="img/menu/composant/carteMere.png" class="lmenu"></a></li>
+                                <li><a href="pages/carte graphique.html" class="title"><img src="img/menu/composant/carteGraphique.png" class="lmenu"></a></li>
+                                <li><a href="pages/memoire vive.html" class="title"><img src="img/menu/composant/memoireVive.png" class="lmenu"></a></li>
+                                <li><a href="pages/disque dur et SSD.html" class="title"><img src="img/menu/composant/disqueDur.png" class="lmenu"></a></li>
+                                <li><a href="pages/alimentation PC.html" class="title"><img src="img/menu/composant/alimentationPC.png" class="lmenu"></a></li>
+                                <li><a href="pages/boitier PC.html" class="title"><img src="img/menu/composant/boitierPC.png" class="lmenu"></a></li>
+                            </ul>
+                        </li>
+                        <li><a><img src="img/menu/peripherique/peripherique.png" width="211px" height="50px" class="bmenu" id="hperipherique"></a>
+                            <ul>
+                                <li><a href="pages/moniteur.html" class="title"><img src="img/menu/peripherique/moniteur.png" class="lmenu"></a></li>
+                                <li><a href="pages/clavier.html" class="title"><img src="img/menu/peripherique/clavier.png" class="lmenu"></a></li>
+                                <li><a href="pages/souris.html" class="title"><img src="img/menu/peripherique/souris.png" class="lmenu"></a></li>
+                                <li><a href="pages/casque.html" class="title"><img src="img/menu/peripherique/casque.png" class="lmenu"></a></li>
+                                <li><a href="pages/microphones.html" class="title"><img src="img/menu/peripherique/microphone.png" class="lmenu"></a></li>
+                                <li><a href="pages/webcame.html" class="title"><img src="img/menu/peripherique/webcame.png" class="lmenu"></a></li>
+                            </ul>
+                        </li>
+                        <li><a><img src="img/menu/accessoire/accessoire.png" width="205px" height="50px" class="bmenu" id="haccessoire"></a>
+                            <ul>
+                                <li><a href="pages/chaise.html" class="title"><img src="img/menu/accessoire/chaise.png" class="lmenu"></a></li>
+                                <li><a href="pages/bureau.html" class="title"><img src="img/menu/accessoire/bureau.png" class="lmenu"></a></li>
+                                <li><a href="pages/tapis de souris.html" class="title"><img src="img/menu/accessoire/tapisdesouris.png" class="lmenu"></a></li>
+                                <li><a href="pages/volant.html" class="title"><img src="img/menu/accessoire/volantpourpc.png" class="lmenu"></a></li>
+                            </ul>
+                        </li>
+                    </div>
                 </ul>
             </nav>
+            <label for="check" id="icon" class="label"><img src="img/icon.png" width="50px" class="iimg"></label>
+            <ul>
+                <li>
+                    <div class="popup" onclick="myFunction()">
+                        <img src="img/user.png" class="icus">
+                        <span class="pt" id="mp">
+                            <a onclick="document.getElementById('id01').style.display='block'" class="lg">Login</a><br>
+                            <div class="su">
+                                <a onclick="document.getElementById('id02').style.display='block'" class="lg">Sign up</a>
+                            </div>
+                        </span>
+                    </div>
+                </li>
+            </ul>
         </header>
+        <div id="id01" class="modal">
+            <form class="modal_content animate">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">
+                        &times;
+                    </span>
+                </div>
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <button type="submit">Login</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+                <div class="container">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">
+                        Cancel
+                    </button>
+                    <span class="psw"><a href="">Forgot password?</a></span>
+                </div>
+            </form>
+        </div>
+        <div id="id02" class="modal">
+            <form class="modal_content animate">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id02').style.display='none'" class="close1" title="Close Modal">
+                        &times;
+                    </span>
+                </div>
+                <div class="container">
+                    <h1>Sign up</h1>
+                    <p>Please fill in this form to create an account</p>
+                    <hr>
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                    <label for="number"><b>Phone number</b></label>
+                    <input type="tel" placeholder="Enter Phone number" id="Phone">
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <label for="psw-repeat"><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Repeat Password" id="psw-repeat">
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                    <p>
+                        By creating an account you agree to our <a style="color:dodgerblue">Terms & Privacy.</a>
+                    </p>
+                </div>
+                <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn1">
+                        Cancel
+                    </button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                </div>
+                <div class="container">
+                    <span class="psw"><a>Forgot password?</a></span>
+                </div>
+            </form>
+        </div>
         <!--nvidia-->
-        <img src="img/EVGA-GeForce-RTX-3090.png" class="img1" align="right">
-        <h1 class="h1part1">GEFORCE RTX 3090</h1>
+        <img src="img/EVGA-GeForce-RTX-3090.png" class="img1" id="img1" align="right">
+        <h1 class="h1part1" id="fh">GEFORCE RTX 3090</h1>
         <p class="ppart1">
             La GeForce RTX™ 3090 est une carte graphique incroyablement
             puissante offrant des performances de niveau TITAN. Optimisée par
-            Ampere, l’architecture NVIDIA RTX de seconde génération, cette
-            carte graphique de haute technologie est dotée d’une multitude de
+            Ampere, l'architecture NVIDIA RTX de seconde génération, cette
+            carte graphique de haute technologie est dotée d'une multitude de
             cœurs RT et Tensor, et elle embarque de nouveaux
-            multiprocesseurs de flux pour des performances d’IA et de ray
-            tracing deux fois plus élevées. Vivez l’expérience gaming ultime
+            multiprocesseurs de flux pour des performances d'IA et de ray
+            tracing deux fois plus élevées. Vivez l'expérience gaming ultime
             avec 24 Go de mémoire G6X et une puissance incomparable.
         </p>
         <!--pack-->
-        <img src="img/pack.png" class="img2" align="left">
-        <h1 class="h1part2">CLAVIER/SOURIS/CASQUE SPIRIT OF GAMER PRO MKH5</h1>
+        <img src="img/pack.png" class="img2" id="img2" align="left">
+        <h1 class="h1part2" id="sh">CLAVIER/SOURIS/CASQUE SPIRIT OF GAMER PRO MKH5</h1>
         <p class="ppart2">
             - Souris filaire pour gamer, 7 boutons avec personnalisation possible des fonctions,
             et capteur optique, avec un poids de 125 g.<br>
@@ -75,8 +158,8 @@
             rétroéclairage uniquement.
         </p>
         <!--moniteur-->
-        <img src="img/P_setting_xxx_0_90_end_692.png" class="img3" align="right">
-        <h1 class="h1part3">ASUS TUF Gaming VG32VQ 31.5" QHD 144Hz Curved</h1>
+        <img src="img/P_setting_xxx_0_90_end_692.png" class="img3" id="img3" align="right">
+        <h1 class="h1part3" id="th">ASUS TUF Gaming VG32VQ 31.5" QHD 144Hz Curved</h1>
         <p class="ppart3">
             Performances, immersion et émotions. Le moniteur ASUS TUF Gaming VG32VQ est prêt à
             vous faire passer au niveau supérieur du gaming et a, dans cette optique, été doté d'un
@@ -84,4 +167,6 @@
             technologie unique ELMB-Sync.
         </p>
     </body>
+    <script src="index.js"></script>
+    <script src="cookie.js"></script>
 </html>

@@ -3,6 +3,76 @@
     padding: 0;
 }
 
+.pimg {
+    margin-top: -10%;
+    margin-left: 90%;
+    position: fixed;
+}
+
+.label {
+    display: none;
+}
+
+header .input {
+    display: none;
+}
+
+@media (max-width: 1020px){
+    .label {
+        display: block;
+    }
+
+    header .input {
+        display: none;
+    }
+
+    header .input:checked + .mnav {
+        left: 0;
+        transition: left .2s ease-in-out;
+    }
+
+    .iimg:active{
+        content: url(img/hicon.png);
+    }
+
+    .pimg:active{
+        content: url(img/hicon.png);
+    }
+
+    .mnav {
+        position: absolute;
+        top: 75px;
+        left: -5000px;
+        border-top: 1px white;
+        width: 41.5%;
+        background-color: rgb(30, 30, 30);
+        border-radius: 0 0 20px 0;
+        box-shadow: 0px 10px 10px black;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li ul {
+        margin-left: 40%;
+        display: none;
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+
+    nav ul li ul::-webkit-scrollbar {
+        display: none;
+    }
+
+    nav ul li:hover ul {
+        display: block;
+    }
+
+    nav ul li ul li a {
+        width: 250px;
+    }
+}
+
 .logo1:hover {
     content: url(logo/logo.png);
 }
@@ -15,6 +85,7 @@ nav {
     position: fixed;
     box-shadow: 0 0 30px black;
     backdrop-filter: blur(30px);
+    user-select: none;
 }
 
 nav ul {
@@ -30,6 +101,7 @@ nav ul li {
     float: left;
     line-height: 75px;
     position: relative;
+    cursor: pointer;
 }
 
 nav ul li ul {
@@ -57,10 +129,6 @@ nav ul li a {
     padding: 0 20px;
 }
 
-nav ul li a:hover{
-    
-}
-
 nav ul li ul li {
     width: 150px;
     height: 75px;
@@ -69,12 +137,6 @@ nav ul li ul li {
 nav ul li ul li a {
     padding: 0px 20px;
     width: 250px;
-}
-
-nav ul li ul li a:hover {
-    height: 75px;
-    width: 210px;
-    border-radius: 0 0 20px 20px;
 }
 
 .title:hover {
@@ -104,4 +166,25 @@ nav ul li ul li a:hover {
 
 #haccessoire:hover {
     content: url(img/menu/accessoire/haccessoire.png);
+}
+
+.icus {
+    width: 75px;
+    margin-top: -1%;
+    margin-left: 90%;
+    position: fixed;
+    cursor: pointer;
+}
+
+.icus:hover {
+    content: url(img/auser.png);
+}
+
+@media (max-width: 1020px) {
+    .icus {
+        width: 75px;
+        right: 11%;
+        top: 1.5%;
+        position: fixed;
+    }
 }

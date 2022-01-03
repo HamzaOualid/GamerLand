@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" href="Login.css">
+</head>
+<body>
+		<form id="form" class="container" >
+			<header><h2>Login</h2></header>
+			<div class="form-box " id="form-box" >
+				<label for="nom">Nom :</label>
+				<input type="text" name="nom" class="champ" id="nom" placeholder="votre nom" onblur ="nomValidate()" />
+			</div>
+			<div class="form-box " id="form-box">
+				<label for="prenom">Prénom :</label>
+				<input type="text" name="prenom" class="champ" id="prenom" placeholder="votre prénom" />
+			</div>
+			<div class="form-box" id="form-box">
+				<label for="email">Adresse Email :</label>
+				<input type="text" name="email" class="champ" id="email" placeholder="votre mail" onblur="validateEmail()" />
+			</div>
+			<div class="form-box" id="form-box">
+				<label for="numero">Numero de Tel : :</label>
+				<input type="number" name="phone" class="champ" id="phone" placeholder="+212()" onblur="validatephone()" />
+			</div>
+			<div class="form-box" id="form-box">
+				<label for="password">Mot de passe :</label>
+				<input type="password" name="password" class="champ" id="password" placeholder="Password" onblur="validatephone()" />
+			</div>
+			<h4 id="validation"></h4>
+			
+			<div class="form-box" id="form-box">
+				<button >Envoyer</button>
+				<input type="reset" value="Annuler" id="cancel">
+			</div>
+		</form>
+		
+		<script src="login.js"></script>
+</body>
+</html>
