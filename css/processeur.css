@@ -18,26 +18,13 @@
     padding-right: 40px;
 }
 
-.img1:hover {
-    content: url(../img/processeur/hi7\ 10gen.png);
-}
-
 .img2 {
     padding-left: 40px;
     padding-right: 40px;
 }
-
-.img2:hover {
-    content: url(../img/processeur/hi9\ 9gen.png);
-}
-
 .img3 {
     padding-left: 40px;
     padding-right: 40px;
-}
-
-.img3:hover {
-    content: url(../img/processeur/hAMD_R7-3700X_01.png);
 }
 
 .img4 {
@@ -45,26 +32,14 @@
     padding-right: 40px;
 }
 
-.img4:hover {
-    content: url(../img/processeur/hi5\ 9gen.png);
-}
-
 .img5 {
     padding-left: 40px;
     padding-right: 40px;
 }
 
-.img5:hover {
-    content: url(../img/processeur/hi5\ 10gen.png);
-}
-
 .img6 {
     padding-left: 40px;
     padding-right: 40px;
-}
-
-.img6:hover {
-    content: url(../img/processeur/hi9\ 9gen.png);
 }
 
 body::-webkit-scrollbar {
@@ -108,6 +83,36 @@ nav ul li ul li a:hover {
     opacity: 1  ;
 }
 
+.container:hover .img1 {
+    content: url(../img/processeur/hi7\ 10gen.png);
+    opacity: 0.25;
+}
+
+.container:hover .img2 {
+    content: url(../img/processeur/hi9\ 9gen.png);
+    opacity: 0.25;
+}
+
+.container:hover .img3 {
+    content: url(../img/processeur/hAMD_R7-3700X_01.png);
+    opacity: 0.25;
+}
+
+.container:hover .img4 {
+    content: url(../img/processeur/hi5\ 9gen.png);
+    opacity: 0.25;
+}
+
+.container:hover .img5 {
+    content: url(../img/processeur/hi5\ 10gen.png);
+    opacity: 0.25;
+}
+
+.container:hover .img6 {
+    content: url(../img/processeur/hi9\ 9gen.png);
+    opacity: 0.25;
+}
+
 .container:hover .text {
     display: block;
     opacity: 1  ;
@@ -116,8 +121,8 @@ nav ul li ul li a:hover {
 .text {
     position: absolute;
     color: white;
-    font-size: 22px;
-    margin-top: -222px;
+    font-size: 28px;
+    margin-top: -290px;
     margin-left: 15px;
     display: none;
     user-select: none;

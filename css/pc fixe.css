@@ -14,29 +14,14 @@
     padding-right: 40px;
 }
 
-.img1:hover {
-    content: url(../img/pc\ fixe/hpcstandart.png);
-    opacity: 0.25;
-}
-
 .img2 {
     padding-left: 40px;
     padding-right: 40px;
 }
 
-.img2:hover {
-    content: url(../img/pc\ fixe/hpcavance.png);
-    opacity: 0.25;
-}
-
 .img3 {
     padding-left: 40px;
     padding-right: 40px;
-}
-
-.img3:hover {
-    content: url(../img/pc\ fixe/hpcultra.png);
-    opacity: 0.25;
 }
 
 .h1 {
@@ -71,6 +56,21 @@
     margin-left: 15px;
     display: none;
     user-select: none;
+}
+
+.container:hover .img1 {
+    content: url(../img/pc\ fixe/hpcstandart.png);
+    opacity: 0.25;
+}
+
+.container0:hover .img2 {
+    content: url(../img/pc\ fixe/hpcavance.png);
+    opacity: 0.25;
+}
+
+.container0:hover .img3 {
+    content: url(../img/pc\ fixe/hpcultra.png);
+    opacity: 0.25;
 }
 
 .container0:hover .overlay {

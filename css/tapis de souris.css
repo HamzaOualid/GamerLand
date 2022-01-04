@@ -3,6 +3,12 @@
     src: url(../roboto.ttf);
 }
 
+.iimg {
+    margin-top: -9%;
+    margin-left: 90%;
+    position: fixed;
+}
+
 .h1 {
     padding: 2%;
 }
@@ -12,17 +18,9 @@
     padding-right: 40px;
 }
 
-.img1:hover {
-    content: url(../img/tapis/hASUS\ ROG\ Strix\ Edge.png);
-}
-
 .img2 {
     padding-left: 40px;
     padding-right: 40px;
-}
-
-.img2:hover {
-    content: url(../img/tapis/hRazer\ Firefly\ V2\ Chroma.png);
 }
 
 .img3 {
@@ -30,6 +28,56 @@
     padding-right: 40px;
 }
 
-.img3:hover {
+/* for menu*/
+nav ul li ul li a:hover {
+    height: 75px;
+    width: 210px;
+    border-radius: 0 0 20px 20px;
+}
+
+/*---------------------------*/
+
+.overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.container:hover .overlay {
+    display: block;
+    opacity: 1  ;
+}
+
+.container:hover .img1 {
+    content: url(../img/tapis/hASUS\ ROG\ Strix\ Edge.png);
+    opacity: 0.25;
+}
+
+.container:hover .img2 {
+    content: url(../img/tapis/hRazer\ Firefly\ V2\ Chroma.png);
+    opacity: 0.25;
+}
+
+.container:hover .img3 {
     content: url(../img/tapis/hTapis\ de\ Souris\ Gamer\ Souple\ Extended\ mouse\ pad.png);
+    opacity: 0.25;
+}
+
+.container:hover .text {
+    display: block;
+    opacity: 1  ;
+}
+
+.text {
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    margin-top: -290px;
+    margin-left: 15px;
+    display: none;
+    user-select: none;
 }

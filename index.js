@@ -38,7 +38,7 @@ function scrollAnimation() {
             document.getElementById("th").className = "slideLeft";
         }
     }
-    else
+    else //responsive
     {
         if(document.documentElement.scrollTop > 230)
         {
